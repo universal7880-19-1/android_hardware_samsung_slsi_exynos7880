@@ -84,7 +84,7 @@ else
     LOCAL_MODULE    := provisioningagent
 endif
 
-LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
+LOCAL_HEADER_LIBRARIES += generated_kernel_headers
 
 LOCAL_MODULE_TAGS := optional
 
